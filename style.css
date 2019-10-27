@@ -1,0 +1,216 @@
+ body{
+  background-color:#f1f1f1;
+ 
+}
+
+.navbar {
+        margin-bottom: 40px;
+        border-radius: 0;
+      }
+      
+      /* Remove the jumbotron's default bottom margin */ 
+      .jumbotron {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding:5px;
+        background-color: #111;
+        color: #EC407A;
+        
+      }
+      .navbar{
+        position: sticky;  /*wont work without top/left/bottom/right attribute..z is imp so that content doesnt goes over navbar*/
+        top:0;
+        z-index: 9999;
+        background-color: #111;
+        font-size: 16px;
+        font-family: 'Bitter', serif;
+        box-shadow: 4px 4px 10px 4px #E0E0E0
+      }
+      .jumbotron h1{
+      font-family: 'Niconne', cursive;  
+      font-size: 76px; 
+      }
+    .im {
+        width: 100%;
+        height: 160px;
+    }
+    .panel{
+      margin:40px 15px 0 15px;
+        box-shadow: 2px 2px 2px 2px #F48FB1;
+    
+    }
+    .panel:hover{
+      box-shadow: 3px 3px 4px 3px #EC407A;
+    }
+ 
+
+.alert{
+	margin-top:20px;
+}
+ .panel-footer .price{
+	color:#111;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Righteous', cursive;
+	line-height: 12px;
+}
+ .panel-footer .name{
+	color:#111;
+	font-size: 15px;
+	text-decoration: none;
+	font-family: 'Domine', serif;
+	overflow:hidden;
+}
+ /*.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }*/
+
+  @media screen and (max-width: 800px) {
+  .panel{
+    width:250px;
+    height:auto;
+    float:left;
+    margin-left:30px;
+    
+  }
+}
+ 
+ /*dropdown my account*/
+ ul .account{
+    color: #EC407A;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+ }
+
+ .cartbtn{
+    display: block;
+    margin:8px auto 0 auto;
+ }
+  /*product-details page*/
+ .displayimg{
+    height:400px;
+    width:auto;
+    box-shadow: 3px 3px 4px 3px #9E9E9E;
+ }
+
+ .details .details-heading{
+    margin:0 auto;
+   /*color: #8E24AA;*/
+   font-family: 'Bree Serif', serif;
+ }
+ .details .details-heading2{
+    margin:2px auto;
+   /*color: #8E24AA;*/
+   font-family: 'Bree Serif', serif;
+ }
+ .details ul li{
+    border:none;
+ }
+ 
+ .details ul li{
+    /*font-family: 'Noto Sans TC', sans-serif;*/
+    font-size:16px;
+ }
+ .details ul li span{
+    font-family: 'Bree Serif', serif;
+    /*font-weight:600;*/
+    font-size: 17px;
+ }
+ .details ul{
+    box-shadow: 3px 3px 4px 3px #9E9E9E;
+ }
+
+
+/*cartlist*/
+ /*this is a media so photo is on left and content on right*/
+ .cartlist{
+    box-shadow: 3px 3px 3px 3px #9E9E9E;
+
+ }
+.heading{
+    margin:0 auto;
+  }
+  
+  .m1 ul li span{
+    font-family: 'Ramabhadra', sans-serif;
+  }
+  .m1 .media-heading{
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+  }
+  .m1 ul li{
+    padding:15px;
+    font-size:16px;
+  }
+  .h{
+    text-decoration: underline;
+   
+  }
+  @media screen and (max-width: 550px) {
+  .m1 .media-object{
+    width:180px;
+    height:auto;
+    overflow: scroll;
+  }
+  }
+ @media screen and (max-width: 950px) {
+  .m1 .media-object{
+    width:250px;
+    height:auto;
+    overflow: scroll;
+  }
+  }
+     .priceside ul li{
+       box-shadow: 3px 3px 3px 3px #9E9E9E;
+     }
+     .priceside li{
+        border:none;
+
+     }
+     .priceside{
+      position:sticky;
+      top:70px;
+     
+     }
+
+     .m1 .del{
+        margin-left:30px;
+
+     }
+
+     /*customer-profile*/
+     .customer-profile ul{
+        margin-top:40px;
+        box-shadow: 3px 3px 3px 3px #9E9E9E;
+     }
+      .customer-profile ul li{
+        border:none;
+        font-family: 'Crimson Text', serif;
+        font-size:20px;
+      }
+       .customer-profile ul li span{
+          font-family: 'Ubuntu', sans-serif;
+          font-size:20px;
+       } 
+      .customer-profile ul li h2{
+        font-family: 'Pacifico', cursive;
+        font-size:32px;
+        text-align: center;
+      }
+
+
+      .orderbtn{
+        position: sticky;
+        bottom:0;
+      }
+    /*  place order btn*/
+      .ob{
+        width:25% !important;
+           
+         }
+        .addressbtn{
+          width:35%;
+          margin-bottom: 30px;
+        }

@@ -1,0 +1,157 @@
+/* Remove the jumbotron's default bottom margin */ 
+      body{
+      	
+      	background-color: #f4f4f4;
+      }
+
+      .jumbotron {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding:12px;
+        background-color: #111;
+        color: #e53935;
+               
+      }
+ 
+  .navbar{
+        margin-bottom:10px;
+        border-radius: 0;
+        background-color: #111;
+        font-size: 16px;
+        box-shadow: 4px 4px 8px 4px #E0E0E0;
+       
+      }
+      
+      
+      .jumbotron h1{
+      font-family: 'Niconne', cursive;  
+      font-size: 45px; 
+      }
+     /*Makes the navbar sticky*/
+      .affix { 
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+ /* sidebar*/
+ .sidebar{
+ 	
+ 	position:fixed;
+ 	font-size: 12px;
+ 	
+ }
+ .sidebar a{
+ 	background-color: #111;
+ 	border:none;
+ 	color:#757575;
+ }
+ .sidebar a:visited{
+ 	background-color: #111;
+ 	border:none;
+ 	color:#757575;
+ }
+  .sidebar a:hover{
+  	background-color:#111;
+ 	border-bottom:1px solid #111;
+  }
+ 	.sidebar a:active{
+  	background-color:#111 !important;
+ 	border-bottom:1px solid #111;
+ 	}
+
+  .sidebar a .d{
+ 	display:none;
+ }
+ /*Displays the para part of list i.e name of icons(here)*/
+ .sidebar:hover .d{
+ 	display:block;
+ }
+  
+ /*Removes the sidebar on phones*/
+   @media screen and (max-width: 810px) {
+   	.sidebar{
+      display: none;
+   	}
+   }
+   
+ /* panel on admin panel displaying number of users and product*/
+   .pan .panel-heading h4{
+   		text-align: center;
+   		font-size: 22px;
+   }
+
+  .pan .panel-body p{
+  	text-align:center;
+  	font-size:30px;
+  }
+  .pan .panel-body div{
+  	text-align:center;
+  	font-size:30px;
+  }
+   /*list group of icon and its use of admin panel like add category,....*/
+  .l{
+  	text-align: center;
+  	padding:30px;
+  	font-size:20px;
+  }
+
+  .l i{
+  	font-size:50px;
+  }
+
+  /* manage category page*/
+  .table-responsive .table1{
+  	width:100%;
+  	margin-top:25px;
+  	font-family: 'Nunito', sans-serif;
+  	font-size: 18px;
+   }
+
+
+   .table-responsive .table1 tr{
+   	background-color:#f1f1f1;
+   	}
+   	 
+   	/* creating space between the edit/delete approve/disapprove buttons*/
+   .table-responsive .table1 tr a{
+   	margin-left:25px;
+   	font-size:20px;
+   }   
+   .table-responsive .table1 tr a:hover i{
+   		color:#111 !important;
+   } 
+
+   /*create space betweet the success alert and add/edit form*/
+   .addform{
+   		margin:50px 0;
+   }
+   .addform .alert {
+   	margin:20px;
+   }
+   .editform {
+   	margin:50px 0;
+   }
+   .editform .alert{
+   	margin:20px;
+   }
+ 
+   /*admin-profile*/
+     .admin-profile ul{
+        margin-top:50px;
+        box-shadow: 3px 3px 3px 3px #9E9E9E;
+     }
+      .admin-profile ul li{
+        border:none;
+        font-family: 'Crimson Text', serif;
+        font-size:20px;
+      }
+       .admin-profile ul li span{
+          font-family: 'Ubuntu', sans-serif;
+          font-size:20px;
+       } 
+      .admin-profile ul li h2{
+        font-family: 'Pacifico', cursive;
+        font-size:32px;
+        text-align: center;
+      }

@@ -1,0 +1,146 @@
+ body{
+      	height:1500px;
+      	background-color: #f4f4f4;
+      }
+.jumbotron {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding:2px;
+        background-color: #111;
+        color: #3949AB;
+        border-bottom: 1px solid #9E9E9E;
+        box-shadow: 2px 2px 4px 2px #9E9E9E;
+      }
+       .affix { 
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+.jumbotron .page-heading{
+    font-family: 'Satisfy', cursive;
+    font-size: 70px;
+}
+.jumbotron i{
+	margin-right:40px;
+}
+.sidebar {
+  /*margin: 0;*/
+  /*padding: 0;*/
+  width: 220px;
+  background-color: white;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 2px 2px 4px 2px #9E9E9E;
+}
+.sidebar a{
+	background-color: white !important;
+	border:none;
+	font-family: 'Prompt', sans-serif;
+	font-size: 20px;
+	/*letter-spacing: 1px;*/
+	color:#111;
+	padding:20px;
+  border-radius: 0;
+
+}
+.sidebar a:hover{
+	color: #111;
+  background-color: #E0E0E0 !important;
+}
+.sidebar a:active{
+	background-color: #111;
+}
+.sidebar a:visited{
+	background-color: #111;
+}
+@media screen and (max-width: 800px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top:0;
+    overflow: hidden;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+    position: sticky;
+    top:0;
+  }
+}
+ .sidebar a.btn{
+ 	background-color:#3949AB !important;
+ 	color:black;
+ 	
+ 	padding:8px;
+ }
+  .sidebar a.btn:hover{
+  	border:1px solid #3949AB;
+  }
+  
+  /*this is a media so photo is on left and content on right*/
+  .heading{
+  	margin:0 auto;
+  }
+  .m1{
+  	margin-top:20px !important;
+  	padding-top: 30px;
+  	overflow-x: scroll !important;
+
+  }
+  
+  .m1 ul li span{
+  	font-family: 'Ramabhadra', sans-serif;
+  }
+  .m1 .media-heading{
+  	font-family: 'Bree Serif', serif;
+  	font-size: 25px;
+  }
+  .m1 ul li{
+  	padding:15px;
+  	font-size:16px;
+  }
+  .h{
+  	text-decoration: underline;
+  	margin-top:20px;
+  }
+  
+  /*decreasing size of image so that content doesn't overflow on smaller screens*/
+@media screen and (max-width: 550px) {
+  .m1 .media-object{
+  	width:180px;
+  	height:auto;
+  }
+  }
+ @media screen and (max-width: 950px) {
+  .m1 .media-object{
+  	width:250px;
+  	height:auto;
+  }
+  }
+   
+   /*sellerprofile*/
+      .seller-profile ul{
+        margin-top:80px;
+        box-shadow: 3px 3px 3px 3px #9E9E9E;
+     }
+      .seller-profile ul li{
+        border:none;
+        font-family: 'Crimson Text', serif;
+        font-size:20px;
+      }
+       .seller-profile ul li span{
+          font-family: 'Ubuntu', sans-serif;
+          font-size:20px;
+       } 
+      .seller-profile ul li h2{
+        font-family: 'Pacifico', cursive;
+        font-size:32px;
+        text-align: center;
+      }
